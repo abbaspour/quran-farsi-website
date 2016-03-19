@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'FreeFarsi';
+    src: url('../font/FreeFarsi.otf') format("opentype");
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+@font-face {
+    font-family: 'FreeFarsi';
+    src: url('../font/FreeFarsi.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+html {
+}
+
+
+body {
+    direction: rtl;
+    font-family: "FreeFarsi";
+    font-size: 16pt;
+}
+
+.title {
+    font-size: 34pt;
+}
+
+.subtitle {
+    font-size: 24pt;
+}
+
+ol {
+    list-style: arabic-indic;
+}
+
+li {
+    margin: 1em 0;
+}
